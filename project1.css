@@ -1016,11 +1016,12 @@ ul li a:hover::after{
 }
 .team-item {
     float: left;
-    background-color: #fdeed9;
+    background-color: #c46b2f4d;
     width: 30%;
     padding: 18px  14px ;
     text-align: center;
     position: relative;
+    border-radius: 20px;
 }
 
 .team-item-2 {
