@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 /* header */
 .header{
     width: 100%;
@@ -193,6 +194,8 @@ ul li a:hover::after{
     height: 60px;
     width: 130px;
     font-size: 20;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .home-page-content .btn1{
     background-color: #a94923;
@@ -217,6 +220,7 @@ ul li a:hover::after{
 .welcome-page{
     width: 100%;
     height: 100vh;
+    
 }
 
 .welcome-title h2{
@@ -245,7 +249,7 @@ ul li a:hover::after{
     height: 300px;
     position: relative;
     overflow: auto;
-    margin-top: 77px;
+    margin-top: 150px;
 
 }
 
@@ -329,7 +333,7 @@ ul li a:hover::after{
 .featured-home-page{
     width: 100%;
     height: 100vh;
-    background-color: #c46b2f4d;
+    
 }
 
 .featured-title h2{
@@ -369,7 +373,7 @@ ul li a:hover::after{
     height: 200px;
     margin-top: 30px;
     margin-right: 40px;
-  
+    border-radius: 20px 0px;
     background-size: cover;
     
 }
@@ -383,6 +387,7 @@ ul li a:hover::after{
     width: 100%;
     background-color: #00000088;
     visibility: hidden;
+    border-radius: 20px 0px;
 }
 .featured-squares:hover .featured-squared-overlayer{
     visibility: visible;
@@ -402,7 +407,7 @@ ul li a:hover::after{
     text-transform: uppercase;
     margin-top: -65px;
 
-    color: rgb(180, 187, 193);
+    color: #bf8e79;
 }
 .featured-squared-content p{
     text-transform: capitalize;
@@ -469,14 +474,13 @@ ul li a:hover::after{
 }
 
 .offer-title h2{
-   
     text-align: center;
     font-size: 40px;
     color: #110703;
     text-transform: capitalize;
-    padding-top:70px ;
-    
+    padding-top: 70px;
 }
+
 .offer-title p{
     background-color: #873a1c;
     width: 120px;
@@ -489,20 +493,17 @@ ul li a:hover::after{
     margin: auto;
     width: 80%;
 }
+
 .offer-parent{
     width: 100%;
-    
-   
     position: relative;
     overflow: auto;
     margin-top: 40px;
-
 }
 
 .offer-squares{
     position: relative;
     float: left;
-    
     padding: 10px;
     margin-left: 60px;
     height: 200px;
@@ -510,57 +511,47 @@ ul li a:hover::after{
     border: 1px solid #873a1c;
     border-radius: 10px;
 }
+
 .offer-third-square{
-    margin-right:30px ;
+    margin-right: 30px;
     position: absolute;
     right: 0%;
 }
+
 .offer-first-square{
-    margin-left:30px ;
+    margin-left: 30px;
 }
+
 .offer-squares-content{
     text-align: left;
     position: relative;
-   padding-left: 50px;
-    
+    padding-left: 50px;
 }
 
 .offer-squares-content i{
     position: absolute;
-    left: 5;
-    top: 12;
+    left: 5px;
+    top: 12px;
     font-size: 35px;
     color: #a94923;
 }
+
 .offer-squares-content h2{
-    position: absolute;
-  
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     font-size: 28px;
     text-transform: capitalize;
 }
 
 .offer-squares-content p{
-    position: absolute;
-    margin-top: 50px;
-    
+    margin: 0;
     text-transform: capitalize;
     font-size: 20px;
     color: rgba(50, 50, 50, 0.755);
 }
 
-.p-first-card{
-    padding-top: 30px;
-}
-.p-2nd-card{
-    padding-top: 50px;
-}
-.p-third-card{
-    padding-top: 30px;
-}
 .offer-squares:after{
     position: absolute;
-    content:"";
+    content: "";
     width: 0;
     height: 0;
     top: 0;
@@ -570,22 +561,24 @@ ul li a:hover::after{
     border-radius: 10px;
     z-index: 1;
 }
+
 .offer-squares:hover::after{
     width: 100%;
     height: 100%;
-    
 }
+
 .offer-squares:hover h2{
     color: #a94923;
     transition: 0.5s;
-
 }
+
 .offer-squares:hover p{
     color: #000;
     transition: 0.5s;
 }
+
 .offer-squares:hover i{
-    color: #220f07;   
+    color: #220f07;
 }
 /* ///////////////////////////////////////////////////////////////////////// */
 /* why choose us page */
@@ -982,161 +975,166 @@ ul li a:hover::after{
 }
 /* //////////////////////////////////////////////////////////// */
 /* our team */
+
 .team-page{
     height: 100vh;
     width: 100%;
 }
 
-.team-main-title {
+.team-main-title{
     font-size: 60px;
     text-transform: capitalize;
     text-align: center;
     margin-top: -50px;
 }
 
-.team-line {
+.team-line{
     width: 90px;
     height: 4px;
     background-color: #512311;
     margin: auto;
-    margin-top: 20px ;
+    margin-top: 20px;
     margin-bottom: 50px;
-    
 }
 
-.team-container {
-    width: 80% ;
+.team-container{
+    width: 80%;
     margin: auto;
-    
 }
-.team-parent {
+
+.team-parent{
     width: 100%;
     overflow: auto;
-   
 }
-.team-item {
+
+.team-item{
     float: left;
-    background-color: #c46b2f4d;
+    background-color: #a94923ad;
     width: 30%;
-    padding: 18px  14px ;
+    padding: 18px 14px;
     text-align: center;
     position: relative;
     border-radius: 20px;
 }
 
-.team-item-2 {
-    margin: 0px  5%;
+.team-item-2{
+    margin: 0px 5%;
 }
 
-.team-img {
+.team-img{
     width: 90%;
     margin: auto;
     position: relative;
 }
 
-.team-img  img {
+.team-img img{
     width: 100%;
+    border-radius: 20px;
 }
 
-.team-overlay {
+.team-overlay{
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0 , 0 , 0 , 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     visibility: hidden;
-
+    z-index: 10;
+    border-radius: 20px;
 }
 
-.team-item:hover  .team-overlay {
+.team-item:hover .team-overlay{
     visibility: visible;
 }
 
-.team-overlay  a {
+.team-overlay a{
     display: block;
     width: 40px;
     height: 40px;
-    background-color: #a94923;
+    background-color: #c46b2f;
     color: #fff;
-    margin-left: auto ;
-   
+    margin-left: auto;
+    position: relative;
+    z-index: 100;
+    text-decoration: none;
+     border-radius:  50% ;
 }
 
-.team-overlay  a  i  {
+.team-overlay a i{
     line-height: 40px;
 }
 
-.team-info-title {
+.team-info-title{
     color: #222;
-    padding: 10px  0px;
+    padding: 10px 0px;
     text-transform: capitalize;
 }
-.team-info-desc {
-    color: #6f6f6f ;
+
+.team-info-desc{
+    color: #562512f0;
     text-transform: uppercase;
     font-size: 14px;
-
 }
 
-.team-item:hover  .team-info-title {
-    color: #7f3619;
-    transition: 1s ;
-    
+.team-item:hover .team-info-title{
+    color: #481f0e;
+    transition: 1s;
 }
-.team-item:hover  .team-info-desc {
+
+.team-item:hover .team-info-desc{
     color: #a94923;
-    transition: 1s ;
+    transition: 1s;
 }
 
-.team-item:before {
+.team-item:before{
     content: "";
     position: absolute;
     width: 100%;
     height: 0;
-    top:  0 ;
-    right: 0 ;
-    background-color:  #a949235d;
+    top: 0;
+    right: 0;
+    background-color: #d8af9e5d;
     opacity: 1;
     z-index: 50;
-     border-radius: 20px;
+    border-radius: 20px;
+    pointer-events: none;
 }
 
-.team-item:hover::before  {
+.team-item:hover::before{
     width: 100%;
     height: 100%;
     transition: 1s;
-} 
-
+}
 /* ///////////////////////////////////////////////////////////////////// */
 
 /* Recent News */
 
-.recent-page {
+.recent-page{
     width: 100%;
     min-height: 100vh;
 }
 
-.recent-main-title {
+.recent-main-title{
     font-size: 60px;
     text-transform: capitalize;
     text-align: center;
     margin-top: -50px;
 }
 
-.recent-line {
+.recent-line{
     width: 90px;
     height: 4px;
     background-color: #512311;
     margin: 20px auto 65px;
 }
 
-.recent-container {
+.recent-container{
     width: 80%;
     margin: auto;
 }
 
-.recent-parent {
+.recent-parent{
     width: 100%;
     overflow: auto;
 }
@@ -1144,7 +1142,7 @@ ul li a:hover::after{
 
 /* Cards */
 
-.recent-item {
+.recent-item{
     float: left;
     width: 30%;
     height: 620px;
@@ -1156,21 +1154,21 @@ ul li a:hover::after{
     box-sizing: border-box;
 }
 
-.recent-item-2 {
+.recent-item-2{
     margin: 0 5%;
 }
 
 
 /* Image */
 
-.recent-img {
+.recent-img{
     width: 90%;
     margin: auto;
     position: relative;
     z-index: 100;
 }
 
-.recent-img img {
+.recent-img img{
     width: 100%;
     height: 320px;
     object-fit: cover;
@@ -1179,17 +1177,19 @@ ul li a:hover::after{
 }
 
 
+/* Icons */
 
-.recent-icons {
+.recent-icons{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.recent-icons a {
+.recent-icons a{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -1198,34 +1198,45 @@ ul li a:hover::after{
     font-size: 18px;
 }
 
-.recent-icons a i {
-    color: #5145e5;
+.recent-icons a i{
+    color: rgb(94, 43, 25);
     font-size: 20px;
 }
 
-.recent-icons a span {
+.recent-icons a span{
     color: #222;
     font-size: 17px;
 }
 
-.recent-info {
+
+/* Information */
+
+.recent-info{
     position: relative;
     z-index: 100;
 }
 
-.recent-info h3 {
+.recent-info h3{
     font-size: 24px;
-    margin: 20px 0 25px;
+    height: 60px;
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.recent-info p {
+.recent-info p{
     font-size: 18px;
     line-height: 1.35;
     color: #555;
+    height: 75px;
     margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.recent-info > a {
+.recent-info  a{
     color: #512311;
     font-size: 18px;
     text-decoration: none;
@@ -1234,7 +1245,7 @@ ul li a:hover::after{
 
 /* Hover */
 
-.recent-item:before {
+.recent-item:before{
     content: "";
     position: absolute;
     width: 100%;
@@ -1244,9 +1255,10 @@ ul li a:hover::after{
     background-color: #a949235d;
     z-index: 50;
     border-radius: 13px;
+    pointer-events: none;
 }
 
-.recent-item:hover::before {
+.recent-item:hover::before{
     width: 100%;
     height: 100%;
     transition: 1s;
